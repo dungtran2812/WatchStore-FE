@@ -1,0 +1,59 @@
+.home {
+  padding: 20px;
+
+  .title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #333;
+  }
+
+  .watchGrid {
+    margin-top: 20px;
+  }
+
+  .watchCard {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    .priceText {
+      color: #d53232;
+    }
+    .brandText {
+      color: #2fcc2f;
+    }
+    .automaticText {
+      color: #000000;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .watchImage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .viewDetailsButton {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #40a9ff;
+      color: white;
+    }
+  }
+}

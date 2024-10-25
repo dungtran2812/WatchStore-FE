@@ -1,0 +1,42 @@
+.watchDetailContainer {
+  padding: 20px; // Padding around the entire component
+  background-color: #f0f2f5; // Light gray background for contrast
+  border-radius: 8px; // Rounded corners for the container
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+
+  .watchImage {
+    width: 100%; // Make the image responsive
+    height: auto; // Maintain aspect ratio
+    border-radius: 8px 8px 0 0; // Rounded top corners for the image
+  }
+
+  .watchInfo {
+    padding: 16px; // Padding inside the card
+  }
+
+  .watchName {
+    color: #333; // Dark color for the watch name
+    margin-bottom: 10px; // Space below the name
+  }
+
+  .brandName {
+    font-weight: bold; // Make brand name bold
+    color: #666; // Lighter color for the brand
+  }
+
+  .descriptions {
+    margin-top: 20px; // Space above the descriptions
+    .ant-descriptions-item-label {
+      font-weight: bold; // Bold labels
+    }
+
+    .price {
+      color: #1890ff; // Blue color for the price
+      font-size: 1.2em; // Larger font size for price
+    }
+
+    .automatic {
+      font-style: italic; // Italicize automatic status
+    }
+  }
+}

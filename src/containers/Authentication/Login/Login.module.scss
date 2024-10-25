@@ -1,0 +1,67 @@
+.loginContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/A3QP5leLNWFwyZGR/soho-carousel-image-6-YNqpwbwxXZiR512r.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.loginOverlay {
+  background-color: rgba(255, 255, 255, 0.85); // White background with 85% opacity
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.loginCard {
+  background: transparent; // Ensuring background is transparent since the opacity is set on the overlay
+}
+
+.loginTitle {
+  text-align: center;
+  color: #333;
+}
+
+.loginForm {
+  margin-top: 20px;
+}
+
+.inputField {
+  border-radius: 8px;
+}
+
+.icon {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.loginButton {
+  background-color: #2575fc;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #1c64da;
+  }
+}
+
+.extraLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+
+  a {
+    color: #2575fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #1c64da;
+    }
+  }
+}
